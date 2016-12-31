@@ -1,3 +1,5 @@
+https://github.com/thebluecabrio/angular2-template-with-foundation6
+
 # Angular2Template
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.19-3.

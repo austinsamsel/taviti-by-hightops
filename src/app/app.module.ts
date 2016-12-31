@@ -5,9 +5,12 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 
+import { ClassMetaComponent } from './class-meta.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClassMetaComponent
   ],
   imports: [
     BrowserModule,
