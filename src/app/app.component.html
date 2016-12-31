@@ -1,17 +1,15 @@
+<app-navbar></app-navbar>
+
 <h1>
   {{title}}
 </h1>
 
 <p>
-  {{data.name}} - test
+  {{data.name}}
 </p>
 
-app component : OK
-
-<div>
-  <class-meta [data]="data"></class-meta>
-</div>
+<app-class-details [data]="data"></app-class-details>
 
 <button type="button" class="success button">Save</button>
 
-class meta : OK
+<app-footer></app-footer>

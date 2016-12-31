@@ -4,13 +4,16 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-
-import { ClassMetaComponent } from './class-meta.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { FooterComponent } from './footer/footer.component';
+import { ClassDetailsComponent } from './class-details/class-details.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ClassMetaComponent
+    NavbarComponent,
+    FooterComponent,
+    ClassDetailsComponent
   ],
   imports: [
     BrowserModule,

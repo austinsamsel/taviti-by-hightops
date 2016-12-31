@@ -1,12 +1,15 @@
 export class Data {
   name: string;
   homeURL: string;
-  logo: string;
+  logoImgURL: string;
   classTitle: string;
-  classLocation: string;
+  classHeroImg: string;
+  classTeacherImg: string;
+  classTeacherName: string;
+  classLocationName: string;
   classAddress: string;
-  classDate: string;
-  classTime: string;
+  classDate: string; // IRL: this would be a Date
+  classTime: string; // IRL: the time/length of the class would be calculated from classDate
   classDescription: string;
   teacherAbout: string;
   classPrice: string;
