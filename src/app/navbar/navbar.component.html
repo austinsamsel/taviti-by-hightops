@@ -1,3 +1,48 @@
-<p>
-  navbar works!
-</p>
+<div class="title-bar bg-white" data-responsive-toggle="js-navbar" data-hide-for="medium">
+  <div class="title-bar-title">
+    <a href="{{data.homeURL}}" class="db">
+    	<img
+    	  alt="Taviti logo"
+    	  src="{{data.logoImgURL}}"
+          class="top-bar__logo-img"
+    	/>
+    </a>
+  </div>
+  <button class="menu-icon primary top-bar__menu-icon--cornflower" type="button" data-toggle></button>
+</div>
+
+<div class="top-bar bg-white" id="js-navbar">
+  <div class="top-bar-left bg-white">
+    <ul class="menu bg-white">
+      <li class="menu-text bg-white show-for-medium">
+        <a href="{{data.homeURL}}" class="db">
+        	<img
+            alt="Taviti logo"
+            src="{{data.logoImgURL}}"
+            class="top-bar__logo-img"
+          />
+        </a>
+      </li>
+      <li class="bg-white">
+        <input
+          type="search"
+          placeholder="Where?"
+          class="top-bar__search-input bw0 shadow-0"
+        >
+      </li>
+      <li>
+        <button type="button" class="button hide">Search</button>
+      </li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="vertical medium-horizontal menu bg-white">
+      <li class="bg-white">
+        <a href="#0" class="nevada f6">Sign Up</a>
+      </li>
+      <li class="bg-white">
+        <a href="#0" class="nevada f6">Log In</a>
+      </li>
+    </ul>
+  </div>
+</div>

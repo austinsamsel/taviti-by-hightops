@@ -1,0 +1,34 @@
+@import '../app.component.scss';
+
+// BEM
+
+.top-bar__logo-img{
+  max-width:130px;
+  height:auto;
+}
+.top-bar__menu-icon--cornflower:after{
+  background: $cornflower;
+  box-shadow: 0 7px 0 $cornflower, 0 14px 0 $cornflower;
+}
+.top-bar__menu-icon--cornflower:hover:after{
+  background: $gray;
+  box-shadow: 0 7px 0 $gray, 0 14px 0 $gray;
+}
+.top-bar__search-input{
+  margin: 0 0.5rem;
+  font-size:14px;
+}
+.top-bar__search-input:focus{
+  background-color:$alabaster;
+  box-shadow: none;
+  border:none;
+}
+
+// Media Queries
+
+/* Medium and up */
+@media screen and (min-width: 40em){
+  .top-bar__search-input{
+    margin: 0 1rem;
+  }
+}

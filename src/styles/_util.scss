@@ -1,0 +1,25 @@
+// fCSS
+// aka FunctionalCSS utilities:
+// create rule once, apply on many html elements
+
+// using "!important" is a no-no but...
+// Foundation creates some non-flat selectors
+// so this is a way to override.
+
+// Layout
+.db { display:block !important }
+
+// Background Colors
+.bg-white { background-color:$white !important }
+
+// Colors
+.cornflower { color:$cornflower }
+.gray { color:$gray }
+.nevada { color:$nevada  }
+.alabaster { color:$alabaster }
+
+// Borders
+.bw0 { border-width: 0  }
+
+// Misc
+.shadow-0 { box-shadow:none }

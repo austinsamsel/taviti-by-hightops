@@ -8,6 +8,8 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
 import { ClassDetailsComponent } from './class-details/class-details.component';
 
+require('foundation-sites');
+
 @NgModule({
   declarations: [
     AppComponent,

@@ -4,3 +4,5 @@
 @import "../node_modules/foundation-sites/scss/foundation";
 // include flex
 @include foundation-everything(true);
+// include sass styles
+@import './styles/all.scss';
