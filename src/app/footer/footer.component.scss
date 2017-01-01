@@ -1,0 +1,12 @@
+@import '../app.component.scss';
+
+.footer {
+  padding: 2em 0 2.5em 0;
+  height: 8rem;
+}
+.footer__social-icon {
+  margin: 0 9px;
+}
+.footer__social-icon--white {
+  color:$white;
+}

@@ -6,13 +6,17 @@
 // Foundation creates some non-flat selectors
 // so this is a way to override.
 
+// Pull classnames from Tachyons: https://github.com/tachyons-css/tachyons/blob/master/css/tachyons.css
+
 // Layout
 .db { display:block !important }
 
 // Background Colors
 .bg-white { background-color:$white !important }
+.bg-cornflower { background-color:$cornflower }
 
 // Colors
+.white { color: $white }
 .cornflower { color:$cornflower }
 .gray { color:$gray }
 .nevada { color:$nevada  }
@@ -20,6 +24,9 @@
 
 // Borders
 .bw0 { border-width: 0  }
+
+// Spacing
+.mt2 { margin-top: .5rem; }
 
 // Misc
 .shadow-0 { box-shadow:none }
