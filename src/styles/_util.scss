@@ -21,12 +21,26 @@
 .gray { color:$gray }
 .nevada { color:$nevada  }
 .alabaster { color:$alabaster }
+.mineshaft { color: $mineshaft }
 
-// Borders
+// Borders + Shadows
 .bw0 { border-width: 0  }
+.br-100 { border-radius: 100%; }
 
 // Spacing
-.mt2 { margin-top: .5rem; }
+.ma0 { margin: 0 }
+.mt2 { margin-top: .5rem }
+.pa0 { padding: 0 }
+.pv0 {
+  padding-top: 0 !important;
+  padding-bottom:0 !important;
+}
+.pt4 { padding-top: 2rem }
+
+// Sizing
+.w-100 { width: 100% }
+.mw-none { max-width:none }
+.h-auto { height: auto }
 
 // Misc
 .shadow-0 { box-shadow:none }

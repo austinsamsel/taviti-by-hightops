@@ -9,7 +9,13 @@
 // Pull classnames from Tachyons: https://github.com/tachyons-css/tachyons/blob/master/css/tachyons.css
 
 // Size
+.f3 { font-size: 1.4375rem }
+.f5 { font-size: 1rem }
 .f6 { font-size:0.875rem }
 
 // Style
-.fs-normal { font-style: normal; }
+.fs-normal { font-style: normal }
+
+// Weight
+.fw3 { font-weight:300 }
+.fw4 { font-weight:400 }

@@ -1,5 +1,7 @@
 import { Component, OnInit, Input } from '@angular/core';
+import { Ng2MapComponent } from 'ng2-map';
 import { Data } from '../data';
+
 
 @Component({
   selector: 'app-class-details',
@@ -8,7 +10,9 @@ import { Data } from '../data';
 })
 export class ClassDetailsComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+    Ng2MapComponent['apiUrl'] = 'https://maps.google.com/maps/api/js?key=AIzaSyCaza9vVvqLPXFmL5T2Alb1h5N0KHMNPUs';
+  }
 
   ngOnInit() {
   }
