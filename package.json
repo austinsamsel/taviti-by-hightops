@@ -1,13 +1,13 @@
 {
-  "name": "foundation-zurb-template",
+  "name": "taviti-by-hightops",
   "version": "1.0.0",
-  "description": "Official ZURB Template for Foundation for Sites.",
   "main": "gulpfile.js",
   "scripts": {
     "start": "gulp",
-    "build": "gulp build --production"
+    "build": "gulp build --production",
+    "ship": "gulp build --production && surge dist/ --domain taviti-by-hightops.surge.sh"
   },
-  "author": "ZURB <foundation@zurb.com>",
+  "author": "high tops <austin@hightops.co>",
   "license": "MIT",
   "devDependencies": {
     "babel-preset-es2015": "^6.3.13",
@@ -35,11 +35,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/zurb/foundation-zurb-template.git"
+    "url": "https://github.com/austinsamsel/taviti-by-hightops.git"
   },
   "bugs": {
-    "url": "https://github.com/zurb/foundation-sites/issues",
-    "email": "foundation@zurb.com"
+    "url": "https://github.com/austinsamsel/taviti-by-hightops/issues",
+    "email": "austin@hightops.co"
   },
   "babel": {
     "presets": ["es2015"]

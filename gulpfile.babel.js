@@ -89,7 +89,7 @@ function sass() {
     .pipe($.if(PRODUCTION, $.cssnano()))
     .pipe($.if(!PRODUCTION, $.sourcemaps.write()))
     .pipe(gulp.dest(PATHS.dist + '/assets/css'))
-    .pipe(browser.reload({ stream: true }));
+    .pipe(browser.reload({ stream: true, notify: false }));
 }
 
 // Combine JavaScript into one file
