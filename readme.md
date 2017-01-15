@@ -85,7 +85,7 @@ CSS
 
 When working with jQuery, I generally use [JS Module pattern](https://css-tricks.com/how-do-you-structure-javascript-the-module-pattern-edition/) to organize the code.
 
-...
+Although not needed, I created a sample module in `src/assets/js/app.js` that does a request to a JSON file `assets/json/fake-api.json`. Its the same data I used to populate the HTML, except here I'm logging the key and values to the console.
 
 ...
 
