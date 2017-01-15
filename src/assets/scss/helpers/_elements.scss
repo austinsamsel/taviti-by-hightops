@@ -1,0 +1,18 @@
+body {
+  font-size:16px;
+  line-height:1.5;
+}
+body,
+h1, h2, h3, h4, h5, h6,
+ul, ol, li,
+p, strong, em {
+  color: $nevada;
+  font-family:"Open Sans", sans-serif !important;
+}
+ul, ol, li,
+p, em {
+  font-weight: 300;
+}
+strong {
+  font-weight: 400;
+}
